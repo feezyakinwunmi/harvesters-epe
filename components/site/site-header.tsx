@@ -34,7 +34,7 @@ export async function SiteHeader() {
   return (
     <header className="sticky top-0 z-30 border-b border-line/80 bg-canvas/85 backdrop-blur-md">
       <div className="relative mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-5 sm:px-8">
-        <Wordmark />
+        <Wordmark priority />
         <nav aria-label="Main" className="hidden items-center gap-1 md:flex">
           {LINKS.slice(1).map((l) => (
             <NavLink key={l.href} href={l.href}>{l.label}</NavLink>

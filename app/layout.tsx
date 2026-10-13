@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
 import { Toaster } from "@/components/ui/toaster";
+import { publicEnv } from "@/lib/env";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -10,6 +11,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(publicEnv.siteUrl),
   title: {
     default: "Harvesters Epe",
     template: "%s · Harvesters Epe",

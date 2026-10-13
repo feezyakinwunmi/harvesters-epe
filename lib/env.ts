@@ -13,7 +13,7 @@ export const publicEnv = {
     "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
     process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   ),
-  siteUrl: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/+$/, ""),
+  siteUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://harvesters-epe.vercel.app").replace(/\/+$/, ""),
   smsOtpEnabled: process.env.NEXT_PUBLIC_SMS_OTP_ENABLED === "true",
 };
 

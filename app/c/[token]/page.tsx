@@ -45,7 +45,7 @@ export default async function CheckInPage({ params }: { params: Promise<{ token:
       ) : null}
       <WheatField className="absolute -bottom-8 -right-10 -z-10 h-48 opacity-25" />
       <header className="mx-auto flex w-full max-w-lg items-center justify-between px-5 pt-6">
-        <Wordmark />
+        <Wordmark priority />
         {online ? <Badge tone="accent"><MonitorPlay className="size-3" aria-hidden /> Online</Badge> : null}
       </header>
 

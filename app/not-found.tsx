@@ -10,7 +10,7 @@ export default function NotFound() {
       <SunRays className="absolute left-1/2 top-1/2 -z-10 size-[820px] -translate-x-1/2 -translate-y-1/2 opacity-70" />
       <WheatField className="absolute -bottom-10 left-1/2 -z-10 h-64 -translate-x-1/2 opacity-50" />
       <div className="mx-auto w-full max-w-6xl pt-6 sm:px-3">
-        <Wordmark tone="light" />
+        <Wordmark tone="light" priority />
       </div>
       <div className="mx-auto flex max-w-md flex-1 flex-col items-center justify-center pb-40 text-center">
         <p className="hc-gold-text hc-rise text-[6rem] font-extrabold leading-none tracking-[-0.05em]">404</p>

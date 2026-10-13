@@ -24,7 +24,7 @@ export async function SiteFooter() {
       <div className="relative mx-auto max-w-6xl px-5 pb-10 pt-16 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[1.3fr_2fr]">
           <div className="max-w-sm">
-            <Wordmark tone="light" />
+            <Wordmark tone="light" size="lg" />
             <p className="mt-5 leading-relaxed text-white/60">
               {church.name}, {church.campus}. A place to belong, grow and serve.
             </p>
@@ -49,7 +49,9 @@ export async function SiteFooter() {
         </div>
         <div className="mt-14 flex flex-col gap-2 border-t border-night-line pt-6 text-xs text-white/40 sm:flex-row sm:justify-between">
           <p>© {new Date().getFullYear()} {church.short_name}</p>
-          <p>Register once. Check in with a single scan.</p>
+          <p>Developed by <a href="https://phantomiretechnologies.com" target="_blank" rel="noopener noreferrer" className="hc-underline text-white/70 hover:text-white">
+            Phantomire Technologies
+          </a></p>
         </div>
       </div>
     </footer>

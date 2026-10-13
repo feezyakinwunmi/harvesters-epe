@@ -93,20 +93,6 @@ export function SunRays({ className }: { className?: string }) {
   );
 }
 
-/** The brand mark: an H formed of two stalks and a crossbar, in a gold-edged tile. */
-export function LogoMark({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 40 40" className={className} fill="none" aria-hidden>
-      <rect width="40" height="40" rx="11" fill="#0b0b0a" />
-      <rect x="0.75" y="0.75" width="38.5" height="38.5" rx="10.25" stroke="#b08d3e" strokeOpacity="0.55" strokeWidth="1.5" />
-      <path d="M14 11v19M26 11v19M14 21h12" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
-      <ellipse cx="14" cy="8.5" rx="1.6" ry="2.8" fill="#c4a35a" />
-      <ellipse cx="26" cy="8.5" rx="1.6" ry="2.8" fill="#c4a35a" />
-      <circle cx="31" cy="30" r="2" fill="#c4a35a" />
-    </svg>
-  );
-}
-
 /** A believable but meaningless QR pattern for illustrations. */
 export function QrGlyph({ className, color = "currentColor" }: { className?: string; color?: string }) {
   const cells: Array<[number, number]> = [];

@@ -178,7 +178,7 @@ npm run dev        # http://localhost:3000
 npm run build && npm start
 ```
 
-On Vercel, set the env vars and make sure `NEXT_PUBLIC_SITE_URL` is the production domain **before printing QR sheets**.
+Production runs at **https://harvesters-epe.vercel.app**. On Vercel, set the env vars (Project → Settings → Environment Variables) with `NEXT_PUBLIC_SITE_URL=https://harvesters-epe.vercel.app` **before printing QR sheets**, and add that domain to Supabase → Authentication → URL Configuration (Site URL and Redirect URLs).
 
 ---
 

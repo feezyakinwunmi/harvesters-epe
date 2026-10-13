@@ -95,8 +95,8 @@ function NavList({ items, onNavigate }: { items: Item[]; onNavigate?: () => void
 
 function Brand() {
   return (
-    <div className="flex items-center gap-2">
-      <Wordmark href="/admin" tone="light" />
+    <div className="flex items-center gap-3">
+      <Wordmark href="/admin" tone="light" size="sm" />
       <span className="rounded-full border border-gold/40 px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.14em] text-gold-light">Admin</span>
     </div>
   );
