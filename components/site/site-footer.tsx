@@ -49,7 +49,7 @@ export async function SiteFooter() {
         </div>
         <div className="mt-14 flex flex-col gap-2 border-t border-night-line pt-6 text-xs text-white/40 sm:flex-row sm:justify-between">
           <p>© {new Date().getFullYear()} {church.short_name}</p>
-          <p>Developed by <a href="https://phantomiretechnologies.com" target="_blank" rel="noopener noreferrer" className="hc-underline text-white/70 hover:text-white">
+          <p>Designed and Developed by <a href="https://phantomiretechnologies.com" target="_blank" rel="noopener noreferrer" className="hc-underline text-white/70 hover:text-white">
             Phantomire Technologies
           </a></p>
         </div>
